@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.login {
+    border: 1em;
+    border-color: aqua;
+}
+
