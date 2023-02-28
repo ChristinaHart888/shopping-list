@@ -32,6 +32,18 @@ app.get("/", (req, res) => {
     res.sendFile("/public/html/login.html", { root: __dirname });
 });
 
+app.get("/login", (req, res) => {
+    res.sendFile("/public/html/login.html", { root: __dirname });
+});
+
+app.get("/home", (req, res) => {
+    res.sendFile("/public/html/home.html", { root: __dirname });
+});
+
+app.get("/register", (req, res) => {
+    res.sendFile("/public/html/register.html", { root: __dirname });
+});
+
 
 app.listen(port,function(){
 
