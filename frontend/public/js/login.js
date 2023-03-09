@@ -23,7 +23,8 @@ document.getElementById("loginForm").addEventListener('submit', (e) => {
     .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        console.log("User Cred: ", userCredential);
+        console.log("User Cred: ", userCredential.user);
+        window.localStorage.setItem("uid", userCredential.user.uid)
         return window.location.replace('/home')
         // ...
     })

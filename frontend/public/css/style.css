@@ -12,9 +12,24 @@ nav {
     background-color: #D64045;
     color: #CCCCCC;
     text-decoration: none;
-    
 }
 
 a, #nav-item {
     color: inherit;
+}
+
+#nav-links {
+    width: 100%;
+}
+
+#profile {
+    width: fit-content;
+}
+
+#home {
+    width: 100%;
+}
+
+.dropdown-container {
+    position: relative;
 }
