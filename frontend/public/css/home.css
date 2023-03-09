@@ -87,6 +87,10 @@
     font-size: larger;
 }
 
+#new-family-form {
+    display: grid;
+}
+
 @keyframes pan-image {
     0% {
         background-position: 30% 40%;
