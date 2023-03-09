@@ -6,7 +6,7 @@
     <title>Register</title>
     <link href="../css/login.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-    <script src="../js/register.js" defer></script>
+    <script src="../js/register.js" type="module" defer></script>
 </head>
 <body>
     <div class="navbar"></div>
@@ -15,12 +15,12 @@
             <h1>Register</h1>
             <form class="loginForm" id="registerForm">
                 <label class="formLabel">Email</label>
-                <input type="email" class="formInput"/>
+                <input type="email" class="formInput" id="regEmail"/>
                 <label class="formLabel">Password</label>
-                <input type="password" class="formInput" id="formPassword"/>
+                <input type="password" class="formInput" id="regPassword"/>
                 <label class="formLabel">Re-Enter Password</label>
-                <input type="password" class="formInput" id="formConfirmPassword"/>
-                <button type="submit" class="formSubmit">Login</button>
+                <input type="password" class="formInput" id="regConfirmPassword"/>
+                <button type="submit" class="formSubmit">Register</button>
             </form>
             <p>Already have an account? <a href="" id="loginLink">Login</a> now!</p>
         </div>

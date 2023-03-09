@@ -6,7 +6,7 @@
     <title>Login</title>
     <link href="../css/login.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-    <script src="../js/login.js" defer></script>
+    <script src="../js/login.js" type="module" defer></script>
 </head>
 <body>
     <div class="navbar"></div>
@@ -15,9 +15,9 @@
             <h1>Login</h1>
             <form class="loginForm" id="loginForm">
                 <label class="formLabel">Email</label>
-                <input type="email" class="formInput"/>
+                <input type="email" class="formInput" id="loginEmail"/>
                 <label class="formLabel">Password</label>
-                <input type="password" class="formInput"/>
+                <input type="password" class="formInput" id="loginPass"/>
                 <button type="submit" class="formSubmit">Login</button>
             </form>
             <p>Don't have an account? <a href="" id="registerLink">Register</a> now!</p>

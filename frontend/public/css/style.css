@@ -1,5 +1,20 @@
 html {
-    background-color: #3f3f3f;
+    background-color: #272D2D;
     font-family: Arial, sans-serif;
     color: whitesmoke;
+}
+
+body{
+    background-color: #272D2D;
+}
+
+nav {
+    background-color: #D64045;
+    color: #CCCCCC;
+    text-decoration: none;
+    
+}
+
+a, #nav-item {
+    color: inherit;
 }
